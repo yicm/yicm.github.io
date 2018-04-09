@@ -50,12 +50,12 @@ author:
   linkedin: chengmingyi
   csdn : freeape
   #twitter: NULL
-  #googleplus: 101827554735084402671
+  #googleplus: 
   #douban: NULL
 
 ## Comment system (Disqus) ##
-disqus:
-  shortname: yicm-github-io #the Disqus shortname for the site
+#disqus:
+#  shortname: yicm-github-io #the Disqus shortname for the site
 
 ## Google Analytics ##
 ga_tracking_id: UA-117105020-1 #Google analytics id for the site
