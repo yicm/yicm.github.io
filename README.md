@@ -1,6 +1,6 @@
 
 My Personal Website:
 
-Visit => [](https://freeape.github.io).
+Visit => [https://yicm.github.io](https://yicm.github.io).
 
-Powered by [](http://jekyllrb.com/) & [](https://github.com/FreeApe/jekyll-TeXt-theme).
+Powered by [http://jekyllrb.com](http://jekyllrb.com/) & [FreeApe](https://github.com/FreeApe/jekyll-TeXt-theme).
