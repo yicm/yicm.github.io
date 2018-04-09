@@ -19,7 +19,7 @@ Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
 ## Some Links | 相关链接
 
-- [About This Blog](/blog/2018/04/09/About-this-blog.html)
+- [About This Blog](/2018/04/09/About-this-blog.html)
 
 - [Site Log](/blog/site-log.html)
 
