@@ -64,7 +64,7 @@ ga_tracking_id: UA-117105020-1 #Google analytics id for the site
 leancloud:
   app_id: dihNfS9wxLd8dNYtIknHd7qk-gzGzoHsz
   app_key: TciHfLJ4pY5zAndEnLW1N4lg
-  app_class: ThomasBlog
+  app_class: Counter
 
 # mathjax: true
 
