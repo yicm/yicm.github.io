@@ -45,12 +45,13 @@ author:
   name: "ChengmingYi"
   email: yicm1102@gmail.com
   # facebook:  #your Facebook username
-  twitter: NULL
   github:  yicm
-  googleplus: 101827554735084402671
-  weibo: NULL
-  douban: NULL
+  weibo  huangyi520forever: 
   linkedin: chengmingyi
+  csdn  freeape
+  #twitter: NULL
+  #googleplus: 101827554735084402671
+  #douban: NULL
 
 ## Comment system (Disqus) ##
 disqus:

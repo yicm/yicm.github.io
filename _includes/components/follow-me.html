@@ -58,6 +58,15 @@
         </div>
       </li>
     {%- endif -%}
+    {%- if site.author.csdn -%}
+      <li title="{{ __return | replace: '[NAME]', 'CSDN' }}">
+        <div class="floating-action-round-button csdn">
+          <a itemprop="sameAs" href="blog.csdn.net/{{ site.author.csdn }}" target="_blank">
+            <div class="icon">{%- include icon/social/linkedin.svg -%}</div>
+          </a>
+        </div>
+      </li>
+    {%- endif -%}
     {%- if site.author.douban -%}
       <li title="{{ __return | replace: '[NAME]', 'Douban' }}">
         <div class="floating-action-round-button douban">

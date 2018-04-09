@@ -127,7 +127,8 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-
+*.bak
+*.swp
 *.gem
 *.rbc
 /.config
