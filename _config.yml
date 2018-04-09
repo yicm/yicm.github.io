@@ -58,13 +58,13 @@ disqus:
   shortname: yicm-github-io #the Disqus shortname for the site
 
 ## Google Analytics ##
-ga_tracking_id: UA-71907556-1 #Google analytics id for the site
+ga_tracking_id: UA-117105020-1 #Google analytics id for the site
 
 ## Reading quantity (LeanCloud) ##
-leancloud:
-  app_id: uAG3OhdcH8H4fxSqXLyBljA7-gzGzoHsz
-  app_key: Mzf5m9skSwYVWVXhGiYMNyXs
-  app_class: ThomasBlog
+#leancloud:
+#  app_id: 
+#  app_key: 
+#  app_class: 
 
 # mathjax: true
 
