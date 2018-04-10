@@ -60,7 +60,7 @@ author:
 gitalk:
     clientID: 99f7e9c9e5482a748719
     clientSecret: 062ba295f71fa8212aa0a9c50081b23de1fd9978
-    repository: https://github.com/yicm/Gitalk.git
+    repository: yicm.github.io
     owner: yicm
     admin: yicm
     # clientID:  #Github Application Client ID
