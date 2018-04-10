@@ -17,7 +17,7 @@ url: https://yicm.github.io #the base hostname & protocol for your site e.g. htt
 baseurl: /
 title: ChengmingYi's Blog
 description: > #this means to ignore newlines until "nav_lists:"
-    Tian ChengmingYi's Blog | Yi成名的博客
+    ChengmingYi's Blog | Yi成名的博客
 
 nav_lists:
   - titles:
@@ -38,7 +38,7 @@ repository: yicm/yicm.github.io
 repository_tree: master
 
 ## Language & timezone ##
-lang: zh #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
+lang: eg #the language of your site, eg: en(English), zh(简体中文), zh-Hans(简体中文), zh-Hant(繁體中文)
 timezone: Asia/Shanghai
 
 ## Author & social ##
