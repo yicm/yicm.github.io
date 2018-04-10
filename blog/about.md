@@ -1,21 +1,48 @@
 ---
 layout: page
-title: About
+title: About Me
 key: page-about
 ---
 Welcome to my blog! :earth_asia: :earth_africa: :earth_americas:
 
-`TODO`
 
-## Skills
+## Skills | 技能
 
-`TODO`
+```c
+#include <stdio.h>
+
+int main(int argc, char *argv[])
+{
+    fprintf(stdout, "Hello C\n");
+    
+    return 0;
+}
+```
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[]) 
+{
+    cout << "Hello C++\n" << endl;
+
+    return 0;
+}
+```
+
+```python
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+print('Hello Python')
+```
 
 <!--more-->
 
 ## About Me | 关于我
 
-`TODO`
+My name is Chengming(成名), Please advise!
 
 ## Some Links | 相关链接
 
