@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git与Github
-key: 10001
+key: 1002
 tags: Git
 category: blog
 date: 2018-04-10 19:01:00 +08:00
