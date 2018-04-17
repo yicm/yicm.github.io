@@ -23,21 +23,34 @@ modify_date: 2018-04-11 19:02:00 +08:00
 
 1. http://www.cygwin.com/下载安装程序setup-x86_64.exe
 2. 选择从Internet安装
+
 ![Install from Internet](https://github.com/yicm/Images/blob/master/blog/git_install_1.png?raw=true)
+
 3. 选择安装目录
+
 ![选择安装目录](https://github.com/yicm/Images/blob/master/blog/git_install_2.png?raw=true)
+
 4. 选择软件包下载缓存目录:当想安装其他工具时，有了缓存包，不必从头安装已经安装过的软件包
+
 ![选择软件包下载缓存目录](https://github.com/yicm/Images/blob/master/blog/git_install_3.png?raw=true)
+
 5. 设置网络连接方式是否使用代理等，默认。
+
 ![](https://github.com/yicm/Images/blob/master/blog/git_install_4.png?raw=true)
+
 6. 选择软件包下载源，注意，不同的软件源可能网络下载速度不一样。
+
 ![](https://github.com/yicm/Images/blob/master/blog/git_install_5.png?raw=true)
+
 7. 然后在软件包管理器界面选择安装Git相关的软件包：
 - git: git工具
 - git-completion：Git 命令的自动补齐功能包
+
 ![](https://github.com/yicm/Images/blob/master/blog/git_install_6.png?raw=true)
+
 8. 下一步，等待安装完成。
 9. 打开Cygwin，测试是否安装成功：
+
 ![](https://github.com/yicm/Images/blob/master/blog/git_install_7.png?raw=true)
 
 # Linux系统
