@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Git与Github
-key: 10002
+key: 10001
 tags: Git
 category: blog
 date: 2018-04-10 19:01:00 +08:00
-modify_date: 2018-04-10 19:01:00 +08:00
+modify_date: 2018-04-10 19:02:00 +08:00
 ---
 
 ## **Git**
