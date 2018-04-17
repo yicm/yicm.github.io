@@ -8,7 +8,7 @@ date: 2018-04-11 19:01:00 +08:00
 modify_date: 2018-04-11 19:02:00 +08:00
 ---
 
-# Windows系统
+## 1 Windows系统
 
 在Windows系统下，可以选择几种方式去安装git：
 
@@ -53,7 +53,7 @@ modify_date: 2018-04-11 19:02:00 +08:00
 
 ![](https://github.com/yicm/Images/blob/master/blog/git_install_7.png?raw=true)
 
-# Linux系统
+## 2 Linux系统
 
 Fedora或者Centos系统使用如下命令进行安装：
 

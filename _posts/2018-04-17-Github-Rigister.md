@@ -7,13 +7,13 @@ category: blog
 date: 2018-04-17 19:12:00 +08:00
 modify_date: 2018-04-17 19:12:00 +08:00
 ---
-# 注册Github账号
+## 1 注册Github账号
 
 [https://github.com/join](https://github.com/join)
 
-# 使用SSH/HTTPS方式连接Github
+## 2 使用SSH/HTTPS方式连接Github
 
-## 两者区别和HTTPS连接方式
+### 2.1 两者区别和HTTPS连接方式
 
 &emsp;&emsp;有两种方式可以去连接Github，比如使用`git clone`、`git fetch`、`git pull`、`git push`到一个远端(Github)仓库的时候：
 
@@ -35,7 +35,7 @@ $ git config --global credential.helper cache
 $ git config --global credential.helper 'cache --timeout=3600'
 
 ```
-## SSH连接方式
+### 2.2 SSH连接方式
 
 &emsp;&emsp;创建一个SSH key:
 
@@ -53,7 +53,7 @@ $ git config --global credential.helper 'cache --timeout=3600'
 
 ![](https://github.com/yicm/Images/blob/master/blog/git_register_1.png?raw=true)
 
-# 建立第一个Github项目(仓库)
+## 3 建立第一个Github项目(仓库)
 
 1) 登陆Github
 
