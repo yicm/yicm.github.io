@@ -55,6 +55,8 @@ $ git config --global credential.helper 'cache --timeout=3600'
 
 ![](https://github.com/yicm/Images/blob/master/blog/git_register_1.png?raw=true)
 
+> 可以通过ssh-agent代理程序来管理私钥哦。
+
 ## 3 建立第一个Github项目(仓库)
 
 - 登陆Github
