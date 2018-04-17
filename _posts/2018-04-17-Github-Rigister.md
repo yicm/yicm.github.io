@@ -54,8 +54,10 @@ $ git config --global credential.helper 'cache --timeout=3600'
 
 # 建立第一个Github项目(仓库)
 
-1) 登陆
+1) 登陆Github
+
 [https://github.com/login](https://github.com/login)
+
 2) 点击**“New repository”**，并设置待创建项目信息
 
 ![](https://github.com/yicm/Images/blob/master/blog/git_register_2.png?raw=true)
