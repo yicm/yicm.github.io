@@ -39,28 +39,30 @@ $ git config --global credential.helper 'cache --timeout=3600'
 
 &emsp;&emsp;创建一个SSH key:
 
-(1) 打开Cygwin或者类UNIX系统终端
-(2) 创建ssh key,并以your_email@example.com作为标签
+- 打开Cygwin或者类UNIX系统终端
+
+- 创建ssh key,并以your_email@example.com作为标签
 
 `$ ssh-keygen -t rsa -C "your_email@example.com"`
 
-(3) 一路回车，创建成功。
-(4) 查看SSH key公钥
+- 一路回车，创建成功。
+
+- 查看SSH key公钥
 
 `$ cat ~/.ssh/id_rsa.pub`
 
-(5) [将公钥复制到Github配置项](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+- [将公钥复制到Github配置项](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 ![](https://github.com/yicm/Images/blob/master/blog/git_register_1.png?raw=true)
 
 ## 3 建立第一个Github项目(仓库)
 
-1) 登陆Github
+- 登陆Github
 
 [https://github.com/login](https://github.com/login)
 
-2) 点击**“New repository”**，并设置待创建项目信息
+- 点击**“New repository”**，并设置待创建项目信息
 
 ![](https://github.com/yicm/Images/blob/master/blog/git_register_2.png?raw=true)
 
-3) 填写项目信息，点击提交。
+- 填写项目信息，点击提交。
