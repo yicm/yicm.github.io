@@ -21,8 +21,9 @@ modify_date: 2018-04-17 19:12:00 +08:00
 - 使用SSH的方式: 使用SSH协议，你可以连接并验证远程服务器和服务；使用SSH密钥，你可以连接到GitHub，而无需在每次访问时提供用户名或密码。
 
 &emsp;&emsp;另外如果你设置了[双因素身份验证](https://help.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/)，不仅需要用户名和密码，还需要使用辅助方式来验证，即下面两种方式：
-    - 使用手机APP获取双因素认证码来验证
-    - GitHub发送带双因素认证码的短信来验证
+
+- 使用手机APP获取双因素认证码来验证
+- GitHub发送带双因素认证码的短信来验证
 
 
 **建议：**可以通过设置来实现用户名和密码的缓存（Linux系统下）:

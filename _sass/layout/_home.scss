@@ -2,6 +2,7 @@
   & > article {
     & > h1 {
       font-size: map-get($base, font-size-header-list);
+      color: #4D6DAD;
       & > a {
         @include link-text-colors( $text-color-d, $main-color-1, $main-color-1);
       }
