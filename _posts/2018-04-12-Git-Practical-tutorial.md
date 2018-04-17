@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git实战教程系类
+title: Git实战教程系列
 key: 1005
 tags: Git Study
 category: blog
