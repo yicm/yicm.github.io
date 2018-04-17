@@ -82,7 +82,7 @@ leancloud:
 # mathjax: true
 
 ## Paginate ##
-paginate: 7
+paginate: 4
 paginate_path: /blog/page:num
 
 ## Post excerpts ##
