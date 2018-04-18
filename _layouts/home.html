@@ -11,7 +11,7 @@ titles:
     <div class="m-post-list">
       <!-- top blog -->
       {%- for post in paginator.posts -%}
-        {%- if post.top == 'true' -%}
+        {%- if post.top == true -%}
             <article>
               {%- assign __path = post.url -%}
               {%- include snippets/prepend-baseurl.html -%}
@@ -31,10 +31,11 @@ titles:
               <a href="{{ href }}">{{ __return }}</a>
               {%- include components/article-data.html -%}
             </article>
+        {%- endif -%}
       {%- endfor -%}
 
       {%- for post in paginator.posts -%}
-        {%- if post.top == '' or post.top == 'false' -%}
+        {%- if post.top == false -%}
             <article>
               {%- assign __path = post.url -%}
               {%- include snippets/prepend-baseurl.html -%}
@@ -54,6 +55,7 @@ titles:
               <a href="{{ href }}">{{ __return }}</a>
               {%- include components/article-data.html -%}
             </article>
+        {%- endif -%}
       {%- endfor -%}
 
     </div>
