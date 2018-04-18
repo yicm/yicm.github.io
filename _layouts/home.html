@@ -9,27 +9,53 @@ titles:
 <div class="m-home">
   <div class="main">
     <div class="m-post-list">
+      <!-- top blog -->
       {%- for post in paginator.posts -%}
-        <article>
-          {%- assign __path = post.url -%}
-          {%- include snippets/prepend-baseurl.html -%}
-          {%- assign href = __return -%}
-          <h1><a href="{{ href }}">{{ post.title }}</a></h1>
-          <div class="m-article-content">
-            {%- if site.excerpt_type == 'html' -%}
-              {{ post.excerpt }}
-            {%- else -%}
-              {{ post.excerpt | strip_html | truncate: 350 }}
-            {%- endif -%}
-          </div>
-          {%- assign __path = post.url -%}
-          {%- include snippets/prepend-baseurl.html -%}
-          {%- assign __locale = site.data.locale.READMORE -%}
-          {%- include snippets/locale-to-string.html -%}
-          <a href="{{ href }}">{{ __return }}</a>
-          {%- include components/article-data.html -%}
-        </article>
+        {%- if post.top == 'true' -%}
+            <article>
+              {%- assign __path = post.url -%}
+              {%- include snippets/prepend-baseurl.html -%}
+              {%- assign href = __return -%}
+              <h1><a href="{{ href }}">{{ post.title }}</a></h1>
+              <div class="m-article-content">
+                {%- if site.excerpt_type == 'html' -%}
+                  {{ post.excerpt }}
+                {%- else -%}
+                  {{ post.excerpt | strip_html | truncate: 350 }}
+                {%- endif -%}
+              </div>
+              {%- assign __path = post.url -%}
+              {%- include snippets/prepend-baseurl.html -%}
+              {%- assign __locale = site.data.locale.READMORE -%}
+              {%- include snippets/locale-to-string.html -%}
+              <a href="{{ href }}">{{ __return }}</a>
+              {%- include components/article-data.html -%}
+            </article>
       {%- endfor -%}
+
+      {%- for post in paginator.posts -%}
+        {%- if post.top == '' or post.top == 'false' -%}
+            <article>
+              {%- assign __path = post.url -%}
+              {%- include snippets/prepend-baseurl.html -%}
+              {%- assign href = __return -%}
+              <h1><a href="{{ href }}">{{ post.title }}</a></h1>
+              <div class="m-article-content">
+                {%- if site.excerpt_type == 'html' -%}
+                  {{ post.excerpt }}
+                {%- else -%}
+                  {{ post.excerpt | strip_html | truncate: 350 }}
+                {%- endif -%}
+              </div>
+              {%- assign __path = post.url -%}
+              {%- include snippets/prepend-baseurl.html -%}
+              {%- assign __locale = site.data.locale.READMORE -%}
+              {%- include snippets/locale-to-string.html -%}
+              <a href="{{ href }}">{{ __return }}</a>
+              {%- include components/article-data.html -%}
+            </article>
+      {%- endfor -%}
+
     </div>
     {%- if paginator.total_pages > 1 -%}
         <nav class="m-pagination">
