@@ -22,3 +22,5 @@ modify_date: 2018-04-18 19:02:00 +08:00
 ## 2 一个人的开发
 
 ### 2.1 [使用Git建立本地仓库及gitignore文件介绍](https://yicm.github.io/blog/2018/04/18/Create-a-Local-Project-with-Git.html)
+
+### 2.2 [两步走实现代码提交及Git命令的熟悉](https://yicm.github.io/blog/2018/04/18/Git-commit-and-Skillful-Git-Commands.html)
