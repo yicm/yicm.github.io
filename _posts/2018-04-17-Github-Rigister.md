@@ -6,7 +6,7 @@ top: false
 tags: Git
 category: blog
 date: 2018-04-17 19:12:00 +08:00
-modify_date: 2018-04-17 19:12:00 +08:00
+modify_date: 2018-04-18 19:12:00 +08:00
 ---
 ## 1 注册Github账号
 
@@ -34,6 +34,9 @@ modify_date: 2018-04-17 19:12:00 +08:00
 $ git config --global credential.helper cache
 # 将缓存设置为1小时后超时（秒为单位）
 $ git config --global credential.helper 'cache --timeout=3600'
+
+# 当切换账号时，可能因为缓存时间还未到，导致git push到远端服务器失败，解决办法：
+$ rm -rf ~/.git-credential-cache/
 
 ```
 ### 2.2 SSH连接方式
