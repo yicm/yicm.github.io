@@ -24,3 +24,9 @@ modify_date: 2018-04-18 19:02:00 +08:00
 ### 2.1 [使用Git建立本地仓库及gitignore文件介绍](https://yicm.github.io/blog/2018/04/18/Create-a-Local-Project-with-Git.html)
 
 ### 2.2 [两步走实现代码提交及Git命令的熟悉](https://yicm.github.io/blog/2018/04/18/Git-commit-and-Skillful-Git-Commands.html)
+
+### 2.3 [本地Git仓库操作实战演练](https://yicm.github.io/blog/2018/04/19/Local-Git-Repository-Operations-Combat-Exercise.html)
+
+## 3 本地与远端(Remote)仓库联合操作
+
+### 3.1 [Github账号注册及HTTPS/SSH连接方式介绍](https://yicm.github.io/blog/2018/04/17/Github-Rigister.html)
