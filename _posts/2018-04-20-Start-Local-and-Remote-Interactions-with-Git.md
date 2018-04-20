@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  开始本地和远端的互动操作
+title:  Git之开始本地和远端的互动操作
 key: 1010
 top: false
 tags: Git
