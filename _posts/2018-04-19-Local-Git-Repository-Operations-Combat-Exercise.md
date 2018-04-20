@@ -18,22 +18,28 @@ $ git clone
 $ git init
 $ git status
 $ git log
+$ git reflog
 $ git checkout 
-$ git remote 
+$ git reset 
 $ git branch 
-$ git diff
-$ git reset
 $ git mv
 $ git rm
 ```
 
 ## Git gitignore
 
+- 项目.gitignore
+- 只对本地有效的.git/info/exclude文件
+- 全局.gitignore
+
 ```bash
 # 过滤掉txt结尾文件和文件夹
 *.txt
 # 重新去除过滤掉txt结尾文件或文件夹
 !*.txt
+
+# 过滤掉所有以.a或.o或.s结尾的文件
+*.[aos]
 
 # 过滤掉当前目录的foo文件夹，而不过滤子目录中含有foo的文件夹
 /foo
@@ -43,4 +49,6 @@ build/*
 test/
 # 过滤掉所有test目录和test文件
 test
+# 过滤掉所有a/.../b目录，...为任意嵌套级别目录
+a/**/b
 ```
