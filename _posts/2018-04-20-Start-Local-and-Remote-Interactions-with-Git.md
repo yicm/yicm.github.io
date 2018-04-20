@@ -2,7 +2,7 @@
 layout: post
 title:  开始本地和远端的互动操作
 key: 1010
-top: false
+top: true
 tags: Git
 category: blog
 date: 2018-04-20 16:50:00 +08:00
