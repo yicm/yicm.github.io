@@ -27,6 +27,8 @@ modify_date: 2018-04-18 19:02:00 +08:00
 
 ### 2.3 [本地Git仓库操作实战演练](https://yicm.github.io/blog/2018/04/19/Local-Git-Repository-Operations-Combat-Exercise.html)
 
+### 2.4 [Git之git stash详解](https://yicm.github.io/blog/2018/04/19/Detailed-git-stash.html)
+
 ## 3 本地与远端(Remote)仓库联合操作
 
 ### 3.1 [Github账号注册及HTTPS/SSH连接方式介绍](https://yicm.github.io/blog/2018/04/17/Github-Rigister.html)
