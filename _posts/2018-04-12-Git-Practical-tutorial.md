@@ -34,3 +34,5 @@ modify_date: 2018-04-18 19:02:00 +08:00
 ### 3.2 [Git之开始本地和远端的互动操作](https://yicm.github.io/blog/2018/04/20/Start-Local-and-Remote-Interactions-with-Git.html)
 
 ### 3.3 [Git之分支及分支操作](https://yicm.github.io/blog/2018/04/20/Branch-and-Branch-Operations-of-Git.html)
+
+### 3.4 [Git之tag及tag操作](https://yicm.github.io/blog/2018/04/23/Tag-and-Tag-Operations-of-Git.html)
