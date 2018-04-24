@@ -41,7 +41,7 @@ modify_date: 2018-04-18 19:02:00 +08:00
 
 ## 4 本地和远端的极限表演
 
-### 4.1 两个人的开发---本地和远端同步修改，开始初步冲突处理
+### 4.1 [Git之本地和远端同步修改，开始初步冲突处理](https://yicm.github.io/blog/2018/04/24/Local-and-Remote-Synchronizations-of-Git-are-Modified-and-Initial-Conflict-Resolution-Begins.html)
 ### 4.2 vimdiff和git diff
 ### 4.3 冲突处理之merge
 ### 4.4 冲突处理之rebase
