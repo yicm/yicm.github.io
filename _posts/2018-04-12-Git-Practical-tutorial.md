@@ -6,7 +6,7 @@ top: true
 tags: Git Study
 category: blog
 date: 2018-04-12 19:01:00 +08:00
-modify_date: 2018-04-18 19:02:00 +08:00
+modify_date: 2018-04-24 19:02:00 +08:00
 ---
 
 ## 0 [网易云课堂-Git实战教学](https://study.163.com/course/introduction/1005214008.htm)
@@ -60,3 +60,4 @@ modify_date: 2018-04-18 19:02:00 +08:00
 ### 6.4 开源贡献---如何更新Github上fork的项目代码？
 ### 6.5 开源贡献---如何给开源项目提交代码？
 ### 6.6 项目管理---给Github项目添加Contributing、Issue、pull request模板
+
