@@ -21,8 +21,7 @@ modify_date: 2018-04-19 10:12:00 +08:00
 ```bash
 # step0: 查看当前工作分支状态，存在未跟踪的文件file_name
 $ git status
-# step1： 将操作了一半的文件进行缓存，只需要git add，不需要commit
-$ git add file_name
+# step1： 将操作了一半的文件进行缓存,不需要add或者commit
 $ git stash
 # step2: 再查看状态，此时提示工作分支很干净，无需任何操作，然后就可以切换到其他分支做你想做的事了
 $ git status
