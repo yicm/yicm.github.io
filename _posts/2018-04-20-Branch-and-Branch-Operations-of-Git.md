@@ -26,8 +26,10 @@ modify_date: 2018-04-21 16:50:00 +08:00
 ## 3 分支操作
 
 ```bash
-# 查看分支
-$ git branch branch_name
+# 查看本地分支
+$ git branch
+# 查看本地和远端所有分支
+$ git branch -a
 # 切换分支
 $ git checkout branch_name
 $ 基于当前分支新建一个分支
