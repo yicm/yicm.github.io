@@ -38,9 +38,13 @@ $ 基于当前分支新建一个分支，并切换到新建的分支
 $ git checkout -b new_branch_name
 # 删除一个分支（需处于另一个分支）
 $ git branch -d branch_name
-# 强制删除一个分支(需处于另一个分支)
+# 强制删除一个分支(没有处理合并；需处于另一个分支)
 $ git branch -D branch_name
 $ git branch --delete --force branch_name
+# 删除远程分支(推荐),不会删除本地同名分支
+$ git push origin --delete branch_name
+# 删除远程分支方式二(不推荐)
+$ git push origin :branch_name
 # 重命名一个分支
 $ git branch -m old_branch_name new_branch_name
 # 查看所有分支结构图，包括git stash操作缓存分支

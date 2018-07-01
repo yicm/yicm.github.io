@@ -63,7 +63,11 @@ $ git tag -a new_tag_name c1820a9
 **删除标签：**
 
 ```bash
+# 删除本地标签
 $ git tag -d your_tag_name
+# 删除远程标签
+$ git push origin --delete tag tag_name
+
 ```
 
 **与远端仓库共享标签：**
